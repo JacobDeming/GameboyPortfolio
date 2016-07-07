@@ -1,0 +1,12 @@
+.Profile{
+  font-family: 'Press Start 2p',cursive;
+  font-size: 12px;
+  line-height: 15px;
+  width: 100%;
+  height: 65%;
+  margin: 0 auto;
+  text-align: justify;
+  text-justify: kashida;
+  color: #0F380F;
+  padding: 5px;
+}

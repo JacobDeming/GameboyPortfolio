@@ -1,0 +1,22 @@
+.Projects{
+  font-family: 'Press Start 2p',cursive;
+  text-align: center;
+  color: #0F380F;
+}
+
+hr{
+  margin-bottom: 20px;
+  border: 1px solid #306230;
+}
+
+a{
+  background-color: #8CAD0F;
+  color: #306230;
+  text-decoration: none;
+  padding: 5px;
+}
+
+a:hover{
+  background-color: #306230;
+  color: #8CAD0F;
+}
