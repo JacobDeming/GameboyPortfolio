@@ -10,7 +10,7 @@ import {ProjectsComponent} from './components/projects.component';
     <nav>
       <a [routerLink]="['/profile']">Profile</a>
       <a [routerLink]="['/projects']">Projects</a>
-      <a href="#">Resume</a>
+      <a href="/pdf/J.DemingResume.pdf" target="_blank">Resume</a>
     </nav>
     <router-outlet></router-outlet>
   `,
