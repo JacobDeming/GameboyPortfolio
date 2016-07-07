@@ -46,6 +46,30 @@ body{
   width: 189px;
 }
 
+.AButton{
+  position: absolute;
+  top: 65%;
+  left: 68%;
+  width: 85px;
+  height: 85px;
+  background: darkred;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.BButton{
+  position: absolute;
+  top: 75%;
+  left: 62%;
+  width: 85px;
+  height: 85px;
+  background: darkred;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
 .Projects{
   font-family: 'Press Start 2p',cursive;
   text-align: center;
