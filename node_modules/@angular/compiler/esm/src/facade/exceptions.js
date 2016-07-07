@@ -1,11 +1,8 @@
 import { BaseWrappedException } from './base_wrapped_exception';
 import { ExceptionHandler } from './exception_handler';
 export { ExceptionHandler } from './exception_handler';
-/**
- * @stable
- */
 export class BaseException extends Error {
-    constructor(message = '--') {
+    constructor(message = "--") {
         super(message);
         this.message = message;
         this.stack = (new Error(message)).stack;
@@ -14,10 +11,9 @@ export class BaseException extends Error {
 }
 /**
  * Wraps an exception and provides additional context or information.
- * @stable
  */
 export class WrappedException extends BaseWrappedException {
-    constructor(_wrapperMessage, _originalException /** TODO #9100 */, _originalStack /** TODO #9100 */, _context /** TODO #9100 */) {
+    constructor(_wrapperMessage, _originalException, _originalStack, _context) {
         super(_wrapperMessage);
         this._wrapperMessage = _wrapperMessage;
         this._originalException = _originalException;

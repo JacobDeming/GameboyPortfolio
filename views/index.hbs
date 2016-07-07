@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <base href="/">
+    <link rel='stylesheet' href='/stylesheets/styles.css'/>
+    <!-- 1. Load libraries -->
+    <!-- Polyfill(s) for older browsers -->
+    <script src="js/vendor/es6-shim/es6-shim.min.js"></script>
+
+    <script src="js/vendor/zone.js/dist/zone.js"></script>
+    <script src="js/vendor/reflect-metadata/Reflect.js"></script>
+    <script src="js/vendor/systemjs/dist/system.src.js"></script>
+
+    <!-- 2. Configure SystemJS -->
+    <script src="systemjs.config.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
+</head>
+  <!-- 3. Display the application -->
+  <body>
+  <div class="Background">
+    <div class="DPad"></div>
+    <div class="AButton"></div>
+    <div class="BButton"></div>
+    <div class="ScreenOutline"></div>
+    <div class="Screen">
+      <my-header>Loading...</my-header>
+    </div>
+  </div>
+<script>
+    System.import('app').catch(function(err){ console.error(err);  });
+</script>
+  </body>
+</html>
