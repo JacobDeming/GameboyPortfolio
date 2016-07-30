@@ -15,6 +15,7 @@ import {Project} from './projects/projects';
 })
 
 export class ProjectsComponent{
+  
   projects = [
     new Project("The Hotfix Engine","http://hotfixengine.herokuapp.com/"),
     new Project("Site-V-Site","http://site-v-site.herokuapp.com/"),
