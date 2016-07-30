@@ -1,6 +1,14 @@
 /*Everything element fits inside the screen*/
 body{
-  background-color: lightgray;
+  background-color:black;
+}
+
+.Background{
+  margin:0 auto;
+  background-color:lightgray;
+  width:60vw;
+  height: 97vh;
+  border-radius: 20px 20px 100px 20px;
 }
 
 .ScreenOutline{
@@ -28,6 +36,17 @@ body{
   overflow: auto;
 }
 
+.Screen::-webkit-scrollbar
+{
+  width: 12px;
+}
+
+.Screen::-webkit-scrollbar-thumb
+{
+  border-radius: 50px;
+  background-color: #306230;
+}
+
 .DPad {
   background: black;
   height: 180px;
@@ -46,28 +65,98 @@ body{
   width: 189px;
 }
 
+.ArrowUp {
+  margin: 15px;
+  display: inline;
+  position: inherit;
+  left: 0px;
+  top: 0px;
+  width: 0; 
+  height: 0; 
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 30px solid darkgray;
+}
+
+.ArrowRight {
+  margin: 15px;
+  display: inline;
+  position: inherit;
+  z-index: 1;
+  left: 65px;
+  top: 60px;
+  width: 0; 
+  height: 0; 
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 30px solid darkgray;
+}
+
+.ArrowDown {
+  margin: 15px;
+  display: inline;
+  position: inherit;
+  left: 0px;
+  top: 120px;
+  width: 0; 
+  height: 0; 
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 30px solid darkgray;
+}
+
+.ArrowLeft {
+  margin: 15px;
+  display: inline;
+  position: inherit;
+  z-index: 1;
+  left: -65px;
+  top: 60px;
+  width: 0; 
+  height: 0; 
+  border-right: 30px solid darkgray;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+}
+
 .AButton{
   position: absolute;
-  top: 65%;
+  top: 66%;
   left: 68%;
-  width: 85px;
-  height: 85px;
+  width: 70px;
+  height: 70px;
   background: darkred;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   border-radius: 50%;
 }
 
+.AButton p{
+  font-family: "Lucida Console", Monaco, monospace;
+  text-align: center;
+  position: relative;
+  top: -38px;
+  font-size: 50px;
+}
+
 .BButton{
   position: absolute;
-  top: 75%;
-  left: 62%;
-  width: 85px;
-  height: 85px;
+  top: 72%;
+  left: 60%;
+  width: 70px;
+  height: 70px;
   background: darkred;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   border-radius: 50%;
+}
+
+.BButton p{
+  font-family: "Lucida Console", Monaco, monospace;
+  text-align: center;
+  position: relative;
+  top: -38px;
+  font-size: 50px;
 }
 
 .Projects{
