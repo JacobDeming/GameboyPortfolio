@@ -3,19 +3,14 @@
 <head>
     <base href="/">
     <link rel='stylesheet' href='/stylesheets/styles.css'/>
-    <!-- 1. Load libraries -->
-    <!-- Polyfill(s) for older browsers -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/vendor/es6-shim/es6-shim.min.js"></script>
-
     <script src="js/vendor/zone.js/dist/zone.js"></script>
     <script src="js/vendor/reflect-metadata/Reflect.js"></script>
     <script src="js/vendor/systemjs/dist/system.src.js"></script>
-
-    <!-- 2. Configure SystemJS -->
     <script src="systemjs.config.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
 </head>
-  <!-- 3. Display the application -->
   <body>
   <div class="Background">
     <div class="DPad">
@@ -30,9 +25,16 @@
     <div class="BButton">
       <p>B</p>
     </div>
-    <div class="Select"></div>
-    <div class="Start"></div>
-    <div class="ScreenOutline"></div>
+    <div class="Select">
+      <p>SELECT</p>
+    </div>
+    <div class="Start">
+      <p>START</p>
+    </div>
+    <div class="ScreenOutline">
+      <p>Powered By Angular2</p>
+      <div class="Power"></div>
+    </div>
     <div class="Screen">
       <my-header>Loading...</my-header>
     </div>
@@ -40,5 +42,6 @@
 <script>
     System.import('app').catch(function(err){ console.error(err);  });
 </script>
+<script src="js/main.js"></script>
   </body>
 </html>
