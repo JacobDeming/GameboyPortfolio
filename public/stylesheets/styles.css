@@ -1,4 +1,3 @@
-/*Everything element fits inside the screen*/
 body{
   background-color:black;
 }
@@ -23,6 +22,28 @@ body{
   border-bottom-right-radius: 80px;
 }
 
+.ScreenOutline p{
+  font-weight: bold;
+  font-size: 10px;
+  font-family: "Lucida Console", Monaco, monospace;
+  position: relative;
+  top: 95%;
+  left: 10%;
+}
+
+.Power{
+  box-shadow: 0px 0px 5px red;
+  position: relative;
+  top: 91%;
+  left: 8%;
+  width: 5px;
+  height: 5px;
+  background: darkred;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
 .Screen{
   margin: 0 auto;
   position: absolute;
@@ -36,13 +57,11 @@ body{
   overflow: auto;
 }
 
-.Screen::-webkit-scrollbar
-{
+.Screen::-webkit-scrollbar{
   width: 12px;
 }
 
-.Screen::-webkit-scrollbar-thumb
-{
+.Screen::-webkit-scrollbar-thumb{
   border-radius: 50px;
   background-color: #306230;
 }
@@ -168,11 +187,18 @@ body{
   box-shadow: 2px 2px 1px black;
   position: absolute;
   top: 87%;
-  left: 45%;
+  left: 43%;
   background-color: black;
   height: 10px;
   width: 70px;
   transform: rotate(-45deg);
+}
+
+.Select p{
+  font-size: 12px;
+  font-family: "Lucida Console", Monaco, monospace;
+  color: #666666;
+  text-align: center;
 }
 
 .Start{
@@ -180,11 +206,18 @@ body{
   box-shadow: 2px 2px 1px black;
   position: absolute;
   top: 87%;
-  left: 50%;
+  left: 53%;
   background-color: black;
   height: 10px;
   width: 70px;
   transform: rotate(-45deg);
+}
+
+.Start p{
+  font-size: 12px;
+  font-family: "Lucida Console", Monaco, monospace;
+  color: #666666;
+  text-align: center;
 }
 
 .Projects{
