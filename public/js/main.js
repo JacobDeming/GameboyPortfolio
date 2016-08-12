@@ -19,4 +19,24 @@ $(document).ready(function(){
     $('.Start').css("background-color","black");
     $('.Start').css("box-shadow","2px 2px 1px black");
   })
+
+  $('.BButton').on('mousedown',function(){
+    $('.BButton').css("background-color","maroon");
+    $('.BButton').css("box-shadow","none");
+  })
+
+  $('.BButton').on('mouseup',function(){
+    $('.BButton').css("background-color","darkred");
+    $('.BButton').css("box-shadow","2px 2px 1px darkred");
+  })
+
+  $('.AButton').on('mousedown',function(){
+    $('.AButton').css("background-color","maroon");
+    $('.AButton').css("box-shadow","none");
+  })
+
+  $('.AButton').on('mouseup',function(){
+    $('.AButton').css("background-color","darkred");
+    $('.AButton').css("box-shadow","2px 2px 1px darkred");
+  })
 })

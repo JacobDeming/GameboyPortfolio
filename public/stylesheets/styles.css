@@ -2,6 +2,15 @@ body{
   background-color:black;
 }
 
+.NoSelect{
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; 
+}
+
 .Background{
   margin:0 auto;
   background-color:lightgray;
@@ -141,7 +150,7 @@ body{
 }
 
 .AButton{
-  box-shadow: 2px 2px 1px darkred;
+  box-shadow: 2px 2px 1px maroon;
   position: absolute;
   top: 66%;
   left: 68%;
@@ -162,7 +171,7 @@ body{
 }
 
 .BButton{
-  box-shadow: 2px 2px 1px darkred;
+  box-shadow: 2px 2px 1px maroon;
   position: absolute;
   top: 72%;
   left: 60%;
