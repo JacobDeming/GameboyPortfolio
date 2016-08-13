@@ -1,8 +1,16 @@
 $(document).ready(function(){
 
+  var styleNumber = 0;
+  var gameboyStyles = ["old-school.css","pocket.css"];
+
   $('.Select').on('mousedown',function(){
+    styleNumber++;
     $('.Select').css("background-color","gray");
     $('.Select').css("box-shadow","none");
+    if(styleNumber>=gameboyStyles.length){
+      styleNumber = 0;
+    }
+    $('.Styles').attr("href","/stylesheets/"+gameboyStyles[styleNumber]);
   })
 
   $('.Select').on('mouseup',function(){
@@ -39,4 +47,5 @@ $(document).ready(function(){
     $('.AButton').css("background-color","darkred");
     $('.AButton').css("box-shadow","2px 2px 1px darkred");
   })
+
 })
