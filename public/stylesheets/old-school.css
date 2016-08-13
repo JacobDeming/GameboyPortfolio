@@ -92,7 +92,7 @@
   height: 0; 
   border-left: 15px solid transparent;
   border-right: 15px solid transparent;
-  border-bottom: 30px solid darkgray;
+  border-bottom: 30px solid #333333;
 }
 
 .ArrowRight {
@@ -106,7 +106,7 @@
   height: 0; 
   border-top: 15px solid transparent;
   border-bottom: 15px solid transparent;
-  border-left: 30px solid darkgray;
+  border-left: 30px solid #333333;
 }
 
 .ArrowDown {
@@ -119,7 +119,7 @@
   height: 0; 
   border-left: 15px solid transparent;
   border-right: 15px solid transparent;
-  border-top: 30px solid darkgray;
+  border-top: 30px solid #333333;
 }
 
 .ArrowLeft {
@@ -131,7 +131,7 @@
   top: 60px;
   width: 0; 
   height: 0; 
-  border-right: 30px solid darkgray;
+  border-right: 30px solid #333333;
   border-top: 15px solid transparent;
   border-bottom: 15px solid transparent;
 }

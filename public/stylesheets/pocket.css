@@ -9,7 +9,7 @@
 .ScreenOutline{
   position: absolute;
   margin: 0 auto;
-  background-color: gray;
+  background-color: #444444;
   width: 54%;
   height: 53%;
   top: 3%;
@@ -92,7 +92,7 @@
   height: 0; 
   border-left: 15px solid transparent;
   border-right: 15px solid transparent;
-  border-bottom: 30px solid darkgray;
+  border-bottom: 30px solid #333333;
 }
 
 .ArrowRight {
@@ -106,7 +106,7 @@
   height: 0; 
   border-top: 15px solid transparent;
   border-bottom: 15px solid transparent;
-  border-left: 30px solid darkgray;
+  border-left: 30px solid #333333;
 }
 
 .ArrowDown {
@@ -119,7 +119,7 @@
   height: 0; 
   border-left: 15px solid transparent;
   border-right: 15px solid transparent;
-  border-top: 30px solid darkgray;
+  border-top: 30px solid #333333;
 }
 
 .ArrowLeft {
@@ -131,7 +131,7 @@
   top: 60px;
   width: 0; 
   height: 0; 
-  border-right: 30px solid darkgray;
+  border-right: 30px solid #333333;
   border-top: 15px solid transparent;
   border-bottom: 15px solid transparent;
 }
@@ -187,13 +187,12 @@
   background-color: black;
   height: 10px;
   width: 70px;
-  transform: rotate(-45deg);
 }
 
 .Select p{
   font-size: 12px;
   font-family: "Lucida Console", Monaco, monospace;
-  color: black;
+  color: purple;
   text-align: center;
 }
 
@@ -206,13 +205,12 @@
   background-color: black;
   height: 10px;
   width: 70px;
-  transform: rotate(-45deg);
 }
 
 .Start p{
   font-size: 12px;
   font-family: "Lucida Console", Monaco, monospace;
-  color: black;
+  color: purple;
   text-align: center;
 }
 
