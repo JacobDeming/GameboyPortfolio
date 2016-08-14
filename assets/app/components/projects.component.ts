@@ -31,8 +31,4 @@ export class ProjectsComponent{
     new Project("Playlist of Power","https://playlistofpower.herokuapp.com/",""),
     new Project("Tavern Tussle","https://taverntussle.herokuapp.com/",""),
     new Project("Your Gif Collection","https://gifcollection.herokuapp.com/","")]
-<<<<<<< HEAD
-    
-=======
->>>>>>> master
 }
