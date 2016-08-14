@@ -1,0 +1,264 @@
+.Background{
+  margin:0 auto;
+  background-color:green;
+  width:60vw;
+  height: 97vh;
+  border-radius: 20px 20px 100px 20px;
+}
+
+.ScreenOutline{
+  position: absolute;
+  margin: 0 auto;
+  background-color: #444444;
+  width: 54%;
+  height: 53%;
+  top: 3%;
+  left: 23%;
+  border-radius: 20px;
+  border-bottom-right-radius: 80px;
+}
+
+.ScreenOutline p{
+  font-weight: bold;
+  font-size: 10px;
+  font-family: "Lucida Console", Monaco, monospace;
+  position: relative;
+  top: 95%;
+  left: 10%;
+}
+
+.Power{
+  box-shadow: 0px 0px 5px red;
+  position: relative;
+  top: 91%;
+  left: 8%;
+  width: 5px;
+  height: 5px;
+  background: darkred;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.Screen{
+  margin: 0 auto;
+  position: absolute;
+  border-radius: 20px;
+  top: 5%;
+  left: 25%;
+  width: 46%;
+  height: 44%;
+  padding: 20px;
+  background-color: #9CBD0F;
+  overflow: auto;
+}
+
+.Screen::-webkit-scrollbar{
+  width: 12px;
+}
+
+.Screen::-webkit-scrollbar-thumb{
+  border-radius: 50px;
+  background-color: #306230;
+}
+
+.DPad {
+  box-shadow: 2px 2px 4px black;
+  background: black;
+  height: 180px;
+  position: absolute;
+  width: 60px;
+  left: 28%;
+  top: 65%;
+}
+.DPad:after {
+  box-shadow: 2px 2px 4px black;
+  background: black;
+  content: "";
+  height: 60px;
+  left: -65px;
+  position: absolute;
+  top: 60px;
+  width: 189px;
+}
+
+.ArrowUp {
+  margin: 15px;
+  display: inline;
+  position: inherit;
+  left: 0px;
+  top: 0px;
+  width: 0; 
+  height: 0; 
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 30px solid #333333;
+}
+
+.ArrowRight {
+  margin: 15px;
+  display: inline;
+  position: inherit;
+  z-index: 1;
+  left: 65px;
+  top: 60px;
+  width: 0; 
+  height: 0; 
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 30px solid #333333;
+}
+
+.ArrowDown {
+  margin: 15px;
+  display: inline;
+  position: inherit;
+  left: 0px;
+  top: 120px;
+  width: 0; 
+  height: 0; 
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 30px solid #333333;
+}
+
+.ArrowLeft {
+  margin: 15px;
+  display: inline;
+  position: inherit;
+  z-index: 1;
+  left: -65px;
+  top: 60px;
+  width: 0; 
+  height: 0; 
+  border-right: 30px solid #333333;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+}
+
+.AButton{
+  box-shadow: 2px 2px 1px black;
+  position: absolute;
+  top: 66%;
+  left: 68%;
+  width: 70px;
+  height: 70px;
+  background: black;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.AButton p{
+  font-family: "Bungee",cursive;
+  text-align: center;
+  position: relative;
+  bottom: 77px;
+  font-size: 50px;
+  color: #333333;
+}
+
+.BButton{
+  box-shadow: 2px 2px 1px black;
+  position: absolute;
+  top: 72%;
+  left: 60%;
+  width: 70px;
+  height: 70px;
+  background: black;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.BButton p{
+  font-family: "Bungee",cursive;
+  text-align: center;
+  position: relative;
+  bottom: 77px;
+  font-size: 50px;
+  color: #333333;
+}
+
+.Select{
+  border-radius: 5px;
+  box-shadow: 2px 2px 1px black;
+  position: absolute;
+  top: 87%;
+  left: 43%;
+  background-color: black;
+  height: 10px;
+  width: 70px;
+}
+
+.Select p{
+  font-size: 12px;
+  font-family: "Lucida Console", Monaco, monospace;
+  color: purple;
+  text-align: center;
+}
+
+.Start{
+  border-radius: 5px;
+  box-shadow: 2px 2px 1px black;
+  position: absolute;
+  top: 87%;
+  left: 53%;
+  background-color: black;
+  height: 10px;
+  width: 70px;
+}
+
+.Start p{
+  font-size: 12px;
+  font-family: "Lucida Console", Monaco, monospace;
+  color: purple;
+  text-align: center;
+}
+
+.Projects{
+  font-family: 'Press Start 2p',cursive;
+  text-align: center;
+  color: #0F380F;
+}
+
+hr{
+  margin-bottom: 20px;
+  border: 1px solid #306230;
+}
+
+a{
+  background-color: #8CAD0F;
+  color: #306230;
+  text-decoration: none;
+  padding: 5px;
+}
+
+a:hover{
+  background-color: #306230;
+  color: #8CAD0F;
+}
+
+.Profile{
+  font-family: 'Press Start 2p',cursive;
+  font-size: 12px;
+  line-height: 15px;
+  width: 100%;
+  height: 65%;
+  margin: 0 auto;
+  text-align: justify;
+  text-justify: kashida;
+  color: #0F380F;
+  padding: 5px;
+}
+
+.Header{
+  font-family: 'Press Start 2p',cursive;
+  text-align: center;
+  color: #0F380F;
+}
+
+nav{
+  font-family: 'Press Start 2p',cursive;
+  text-align: center;
+}
