@@ -150,11 +150,13 @@
 }
 
 .AButton p{
-  font-family: "Lucida Console", Monaco, monospace;
+  font-family: "Bungee",cursive;
   text-align: center;
   position: relative;
-  top: -38px;
-  font-size: 50px;
+  bottom: 0px;
+  left: 45px;
+  font-size: 30px;
+  color: #666666;
 }
 
 .BButton{

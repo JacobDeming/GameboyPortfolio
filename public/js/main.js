@@ -29,23 +29,47 @@ $(document).ready(function(){
   })
 
   $('.BButton').on('mousedown',function(){
-    $('.BButton').css("background-color","maroon");
-    $('.BButton').css("box-shadow","none");
+    if(styleNumber==0){
+      $('.BButton').css("background-color","maroon");
+      $('.BButton').css("box-shadow","none");
+    }
+    if(styleNumber==1){
+      $('.BButton').css("background-color","gray");
+      $('.BButton').css("box-shadow","none");
+    }
   })
 
   $('.BButton').on('mouseup',function(){
-    $('.BButton').css("background-color","darkred");
-    $('.BButton').css("box-shadow","2px 2px 1px darkred");
+    if(styleNumber==0){
+      $('.BButton').css("background-color","darkred");
+      $('.BButton').css("box-shadow","2px 2px 1px darkred");
+    }
+    if(styleNumber==1){
+      $('.BButton').css("background-color","black");
+      $('.BButton').css("box-shadow","2px 2px 1px black");
+    }
   })
 
   $('.AButton').on('mousedown',function(){
-    $('.AButton').css("background-color","maroon");
-    $('.AButton').css("box-shadow","none");
+    if(styleNumber==0){
+      $('.AButton').css("background-color","maroon");
+      $('.AButton').css("box-shadow","none");
+    }
+    if(styleNumber==1){
+      $('.AButton').css("background-color","gray");
+      $('.AButton').css("box-shadow","none");
+    }
   })
 
   $('.AButton').on('mouseup',function(){
-    $('.AButton').css("background-color","darkred");
-    $('.AButton').css("box-shadow","2px 2px 1px darkred");
+    if(styleNumber==0){
+      $('.AButton').css("background-color","darkred");
+      $('.AButton').css("box-shadow","2px 2px 1px darkred");
+    }
+    if(styleNumber==1){
+      $('.AButton').css("background-color","black");
+      $('.AButton').css("box-shadow","2px 2px 1px black");
+    }
   })
 
 })

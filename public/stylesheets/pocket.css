@@ -137,45 +137,47 @@
 }
 
 .AButton{
-  box-shadow: 2px 2px 1px maroon;
+  box-shadow: 2px 2px 1px black;
   position: absolute;
   top: 66%;
   left: 68%;
   width: 70px;
   height: 70px;
-  background: darkred;
+  background: black;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   border-radius: 50%;
 }
 
 .AButton p{
-  font-family: "Lucida Console", Monaco, monospace;
+  font-family: "Bungee",cursive;
   text-align: center;
   position: relative;
-  top: -38px;
+  bottom: 77px;
   font-size: 50px;
+  color: #333333;
 }
 
 .BButton{
-  box-shadow: 2px 2px 1px maroon;
+  box-shadow: 2px 2px 1px black;
   position: absolute;
   top: 72%;
   left: 60%;
   width: 70px;
   height: 70px;
-  background: darkred;
+  background: black;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   border-radius: 50%;
 }
 
 .BButton p{
-  font-family: "Lucida Console", Monaco, monospace;
+  font-family: "Bungee",cursive;
   text-align: center;
   position: relative;
-  top: -38px;
+  bottom: 77px;
   font-size: 50px;
+  color: #333333;
 }
 
 .Select{
