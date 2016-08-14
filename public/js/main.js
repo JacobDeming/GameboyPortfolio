@@ -11,6 +11,18 @@ $(document).ready(function(){
       styleNumber = 0;
     }
     $('.Styles').attr("href","/stylesheets/"+gameboyStyles[styleNumber]);
+    if(styleNumber==0){
+      $('.BButton').css("background-color","darkred");
+      $('.BButton').css("box-shadow","2px 2px 1px darkred");
+      $('.AButton').css("background-color","darkred");
+      $('.AButton').css("box-shadow","2px 2px 1px darkred");
+    }
+    if(styleNumber==1){
+      $('.BButton').css("background-color","black");
+      $('.BButton').css("box-shadow","2px 2px 1px black");
+      $('.AButton').css("background-color","black");
+      $('.AButton').css("box-shadow","2px 2px 1px black");
+    }
   })
 
   $('.Select').on('mouseup',function(){
