@@ -137,19 +137,28 @@
 }
 
 .AButton{
+<<<<<<< HEAD
   box-shadow: 2px 2px 1px black;
+=======
+  box-shadow: 2px 2px 1px maroon;
+>>>>>>> master
   position: absolute;
   top: 66%;
   left: 68%;
   width: 70px;
   height: 70px;
+<<<<<<< HEAD
   background: black;
+=======
+  background: darkred;
+>>>>>>> master
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   border-radius: 50%;
 }
 
 .AButton p{
+<<<<<<< HEAD
   font-family: "Bungee",cursive;
   text-align: center;
   position: relative;
@@ -160,24 +169,47 @@
 
 .BButton{
   box-shadow: 2px 2px 1px black;
+=======
+  font-family: "Lucida Console", Monaco, monospace;
+  text-align: center;
+  position: relative;
+  top: -38px;
+  font-size: 50px;
+}
+
+.BButton{
+  box-shadow: 2px 2px 1px maroon;
+>>>>>>> master
   position: absolute;
   top: 72%;
   left: 60%;
   width: 70px;
   height: 70px;
+<<<<<<< HEAD
   background: black;
+=======
+  background: darkred;
+>>>>>>> master
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   border-radius: 50%;
 }
 
 .BButton p{
+<<<<<<< HEAD
   font-family: "Bungee",cursive;
   text-align: center;
   position: relative;
   bottom: 77px;
   font-size: 50px;
   color: #333333;
+=======
+  font-family: "Lucida Console", Monaco, monospace;
+  text-align: center;
+  position: relative;
+  top: -38px;
+  font-size: 50px;
+>>>>>>> master
 }
 
 .Select{

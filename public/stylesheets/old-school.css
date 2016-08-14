@@ -150,6 +150,7 @@
 }
 
 .AButton p{
+<<<<<<< HEAD
   font-family: "Bungee",cursive;
   text-align: center;
   position: relative;
@@ -157,6 +158,13 @@
   left: 45px;
   font-size: 30px;
   color: #666666;
+=======
+  font-family: "Lucida Console", Monaco, monospace;
+  text-align: center;
+  position: relative;
+  top: -38px;
+  font-size: 50px;
+>>>>>>> master
 }
 
 .BButton{
@@ -173,6 +181,7 @@
 }
 
 .BButton p{
+<<<<<<< HEAD
   font-family: "Bungee",cursive;
   text-align: center;
   position: relative;
@@ -180,6 +189,13 @@
   left: 45px;
   font-size: 30px;
   color: #666666;
+=======
+  font-family: "Lucida Console", Monaco, monospace;
+  text-align: center;
+  position: relative;
+  top: -38px;
+  font-size: 50px;
+>>>>>>> master
 }
 
 .Select{
