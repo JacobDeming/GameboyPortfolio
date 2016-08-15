@@ -1,7 +1,7 @@
 import {Component} from '@angular/core';
 import {Routes, ROUTER_DIRECTIVES, ROUTER_PROVIDERS} from '@angular/router';
-import {ProfileComponent} from './components/profile.component';
-import {ProjectsComponent} from './components/projects.component';
+import {ProfileComponent} from './profile.component';
+import {ProjectsComponent} from './projects.component';
 
 @Component({
   selector: 'my-header',
