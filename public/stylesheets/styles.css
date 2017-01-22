@@ -115,6 +115,10 @@ a:hover{
   color: #0F380F;
 }
 
+.myheader{
+  text-align: center;
+}
+
 nav{
   font-family: 'Press Start 2p',cursive;
   text-align: center;

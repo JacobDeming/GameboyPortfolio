@@ -3,6 +3,8 @@ $(document).ready(function(){
   var styleNumber = 0;
   var gameboyStyles = ["old-school.css","pocket.css"];
 
+  $('.myheader').hide();
+
   $('.Select').on('mousedown',function(){
     styleNumber++;
     $('.Select').css("background-color","gray");
@@ -83,5 +85,13 @@ $(document).ready(function(){
       $('.AButton').css("box-shadow","2px 2px 1px black");
     }
   })
+
+  setTimeout(function(){
+    $('Loading').hide(3000);
+  },7000)
+
+  setTimeout(function(){
+    $('My-Header').fadeIn(5000);
+  },9000)
 
 })
