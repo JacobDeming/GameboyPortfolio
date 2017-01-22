@@ -65,11 +65,11 @@ body{
   font-size: 50px;
   text-align: center;
   color: #0F380F;
-  -webkit-animation: load 3s linear;
+  -webkit-animation: load 2s linear;
 }
 
 @-webkit-keyframes load {
-  from {top:-20vh;}
+  from {top:-15vh;}
   to {top:10vh;}
 }
 

@@ -87,11 +87,11 @@ $(document).ready(function(){
   })
 
   setTimeout(function(){
-    $('Loading').hide(3000);
-  },7000)
+    $('Loading').fadeOut(2000);
+  },3000)
 
   setTimeout(function(){
-    $('My-Header').fadeIn(5000);
-  },9000)
+    $('My-Header').fadeIn(2000);
+  },5500)
 
 })
