@@ -60,17 +60,17 @@ body{
 
 .Loading{
   position: relative;
-  top: 5vh;
+  top: 10vh;
   font-family: 'Press Start 2p',cursive;
   font-size: 50px;
   text-align: center;
   color: #0F380F;
-  -webkit-animation: load 4s linear;
+  -webkit-animation: load 3s linear;
 }
 
 @-webkit-keyframes load {
   from {top:-20vh;}
-  to {top:5vh;}
+  to {top:10vh;}
 }
 
 .Projects{
