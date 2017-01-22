@@ -30,5 +30,5 @@ import {ProjectsComponent} from './projects.component';
 }])
 
 export class HeaderComponent{
-  title = 'Jacob Deming';
+  title = 'Jacob "TKC" Deming';
 }
