@@ -87,8 +87,8 @@ $(document).ready(function(){
   })
 
   setTimeout(function(){
-    $('Loading').fadeOut(2000);
-  },3000)
+    $('Loading').fadeOut(1000);
+  },4000)
 
   setTimeout(function(){
     $('My-Header').fadeIn(2000);
