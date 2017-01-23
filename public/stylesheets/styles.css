@@ -119,6 +119,11 @@ a:hover{
   text-align: center;
 }
 
+.ProjectDesc{
+  text-align: center;
+  font-size: 12px;
+}
+
 nav{
   font-family: 'Press Start 2p',cursive;
   text-align: center;

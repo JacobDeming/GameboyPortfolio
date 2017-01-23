@@ -14,7 +14,7 @@ router.get('/projects',function(req,res,next){
 })
 
 router.get('/blog',function(req,res,next){
-  res.render('blogLanding');
+  res.redirect('https://tkcriminal.wordpress.com/');
 })
 
 module.exports = router;
